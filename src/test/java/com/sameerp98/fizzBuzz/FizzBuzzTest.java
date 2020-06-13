@@ -14,7 +14,8 @@ public class FizzBuzzTest {
     @Parameters(name = "convertFizzBuzz({0})-{1}")
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][] { { 1, "1" }, { 2, "2" }, { 3, "Fizz" }, { 4, "4" }, { 5, "Buzz" },
-                { 6, "Fizz" }, { 10, "Buzz" }, { 15, "FizzBuzz" }, { 20, "Buzz" }, { 45, "FizzBuzz" } });
+                { 6, "Fizz" }, { 10, "Buzz" }, { 13, "Fizz" }, { 15, "FizzBuzz" }, { 20, "Buzz" }, { 45, "FizzBuzz" },
+                { 51, "Buzz" } });
     }
 
     private int input;
