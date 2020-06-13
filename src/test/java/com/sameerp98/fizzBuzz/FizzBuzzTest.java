@@ -15,7 +15,7 @@ public class FizzBuzzTest {
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][] { { 1, "1" }, { 2, "2" }, { 3, "Fizz" }, { 4, "4" }, { 5, "Buzz" },
                 { 6, "Fizz" }, { 10, "Buzz" }, { 13, "Fizz" }, { 15, "FizzBuzz" }, { 20, "Buzz" }, { 45, "FizzBuzz" },
-                { 51, "Buzz" } });
+                { 51, "Fizz" }, { 52, "Buzz" } });
     }
 
     private int input;
